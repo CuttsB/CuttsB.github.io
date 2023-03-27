@@ -48,7 +48,7 @@ main {
 }
 .sidebar-img {
     width: 100%;
-    max-width: 200px;
+    max-width: 100%;
 }
 .content {
     flex: 1;
@@ -90,3 +90,27 @@ h2, h3 {
     text-decoration: none;
     color: #454545;
 }
+/* Default styles for all devices */
+img {
+    max-width: 100%;
+ }
+ 
+ /* Media queries for different device sizes */
+ @media only screen and (max-width: 600px) {
+    img {
+       max-width: 100%;
+    }
+ }
+ 
+ @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    img {
+       max-width: 80%;
+    }
+ }
+ 
+ @media only screen and (min-width: 1025px) {
+    img {
+       max-width: 50%;
+    }
+ }
+ 
