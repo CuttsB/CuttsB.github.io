@@ -5,7 +5,7 @@ body {
     font-family: arial;
 }
 #all-contents {
-  max-width: 100%;
+  max-width: 80%;
     margin: 0 auto;
 }
 
@@ -15,7 +15,7 @@ nav {
    margin: 0 auto;
    margin-bottom: 20px;
     display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 h1 {
     display: flex;
