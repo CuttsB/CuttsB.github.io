@@ -1,8 +1,8 @@
 body {
-    background: rgb(244, 162, 97);
-    color: rgb(26, 46, 53);
-    padding: 10px;
-    font-family: arial;
+    background-image: url(https://images.unsplash.com/photo-1590258335103-0664be2e92bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWVzdGhldGljJTIwZm9yZXN0fGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 #all-contents {
   max-width: 80%;
@@ -20,7 +20,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgb(26, 46, 53);
+    color: rgb(255, 255, 255);
     flex: 1;
     margin: 0;
 }
@@ -33,7 +33,7 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: rgb(26, 46, 53);
+    color: rgb(255, 255, 255);
 }
 
 /* main container area beneath menu */
@@ -66,7 +66,7 @@ h2, h3 {
 }
 /* portfolio styles */
 .content h1 {
-    color: black;
+    color: white;
 }
 
 #portfolio {
